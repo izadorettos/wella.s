@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 
 const slides = [
     {
-        src: '/banner-1.jpg',
+        src: '/assets/banner-1.jpg',
         alt: 'Wella Professionals — Coleção'
     },
     {
-        src: '/banner-3.jpg',
+        src: '/assets/banner-3.jpg',
         alt: 'Wella Professionals — Ultimate Repair'
     }
 ]
