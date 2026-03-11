@@ -24,7 +24,7 @@ export const FloatingHero = () => {
 
     const products = [
         {
-            src: '/product-shampoo.png',
+            src: '/assets/product-shampoo.png',
             alt: 'Invigo Nutri-Enrich Shampoo',
             label: 'SHAMPOO 1L',
             delay: 0,
@@ -34,7 +34,7 @@ export const FloatingHero = () => {
             zIndex: 2
         },
         {
-            src: '/product-mask.png',
+            src: '/assets/product-mask.png',
             alt: 'Invigo Nutri-Enrich Máscara',
             label: 'MÁSCARA 500ML',
             delay: 0.15,
@@ -44,7 +44,7 @@ export const FloatingHero = () => {
             zIndex: 3
         },
         {
-            src: '/product-oil.png',
+            src: '/assets/product-oil.png',
             alt: 'Oil Reflections',
             label: 'OIL REFLECTIONS',
             delay: 0.3,
