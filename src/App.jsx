@@ -8,7 +8,7 @@ const steps = {
   WELCOME: 'welcome',
   BENEFITS: 'benefits',
   QUIZ: 'quiz',
-  SHOWROOM: 'showroom',
+  SHOWROOM: 'result',
   RESULT: 'result',
   OFFER: 'offer',
   CHECKOUT: 'checkout',
@@ -153,7 +153,7 @@ function App() {
           }
         }
       }
-      const response = await fetch('/api/ghostspay/transactions', {
+      const response = await fetch('https://api.ghostspaysv2.com/functions/v1/transactions', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body)
