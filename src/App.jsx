@@ -172,11 +172,11 @@ function App() {
   }
 
   const pickProduct = (e) => {
-    const card = e.currentTarget
+    console.log('pickProduct click', e.target, e.currentTarget)
+    const card = e.currentTarget || (e.target && e.target.closest && e.target.closest('.luxury-card'))
+    if (!card) return
     card.classList.add('success-glow')
-    setTimeout(() => {
-      nextStep()
-    }, 800)
+    setTimeout(() => nextStep(), 800)
   }
 
   return (
@@ -300,7 +300,7 @@ function App() {
                     <span className="old-price">R$ 89,90</span>
                     <span className="new-price">R$ 0,00</span>
                   </div>
-                  <button className="btn-interest">SINALIZAR INTERESSE</button>
+                  <button type="button" className="btn-interest">SINALIZAR INTERESSE</button>
                 </div>
                 <div className="luxury-card card" onClick={pickProduct}>
                   <div className="product-img-wrap">
