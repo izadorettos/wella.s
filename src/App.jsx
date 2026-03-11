@@ -8,7 +8,7 @@ const steps = {
   WELCOME: 'welcome',
   BENEFITS: 'benefits',
   QUIZ: 'quiz',
-  SHOWROOM: 'result',
+  SHOWROOM: 'showroom',
   RESULT: 'result',
   OFFER: 'offer',
   CHECKOUT: 'checkout',
