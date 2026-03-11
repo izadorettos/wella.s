@@ -340,7 +340,7 @@ function App() {
             </section>
 
             <div className="hero-banner-container">
-              <img src="/banner-volume.jpg" alt="Wella Banner — Volume e Movimento" />
+              <img src="assets/banner-volume.jpg" alt="Wella Banner — Volume e Movimento" />
             </div>
 
             <section className="showroom-section">
